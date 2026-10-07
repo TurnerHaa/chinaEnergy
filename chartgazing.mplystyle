@@ -1,0 +1,49 @@
+## Figure
+figure.figsize:        6.4, 3.6      # 1920 x 1080 px at 300 dpi
+figure.dpi:            300
+figure.facecolor:      F2F0EF
+figure.subplot.left:   0
+figure.subplot.right:  0.9
+figure.subplot.top:    0.78
+figure.subplot.bottom: 0.12
+figure.titlesize:      13            # used by fig.suptitle
+figure.titleweight:    bold
+
+## Saving
+savefig.dpi:           300
+savefig.facecolor:     F2F0EF
+
+## Fonts and text
+font.family:           Inter Tight
+font.size:             8             # annotation labels
+text.color:            252422
+
+## Axes
+axes.facecolor:        F2F0EF
+axes.xmargin:          0.1
+axes.ymargin:          0.2
+axes.spines.left:      False
+axes.spines.right:     False
+axes.spines.top:       False
+axes.spines.bottom:    False
+axes.grid:             True
+axes.grid.axis:        x
+axes.prop_cycle:       cycler('color', ['F15156', '4281A4'])
+
+## Grid
+grid.alpha:            0.8
+grid.linewidth:        0.4
+
+## Ticks
+xtick.bottom:          False
+xtick.top:             False
+xtick.major.pad:       -2
+xtick.color:           525252
+xtick.labelcolor:      525252
+xtick.labelsize:       7.5
+
+ytick.left:            True
+ytick.right:           False
+
+## Legend
+legend.frameon:        False
