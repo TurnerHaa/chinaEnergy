@@ -2,10 +2,10 @@
 figure.figsize:        6.4, 3.6      # 1920 x 1080 px at 300 dpi
 figure.dpi:            300
 figure.facecolor:      F2F0EF
-figure.subplot.left:   0
-figure.subplot.right:  0.9
-figure.subplot.top:    0.78
-figure.subplot.bottom: 0.12
+# figure.subplot.left:   0.05
+# figure.subplot.right:  0.95
+# figure.subplot.top:    0.78
+# figure.subplot.bottom: 0.12
 figure.titlesize:      13            # used by fig.suptitle
 figure.titleweight:    bold
 
@@ -20,8 +20,6 @@ text.color:            252422
 
 ## Axes
 axes.facecolor:        F2F0EF
-axes.xmargin:          0.1
-axes.ymargin:          0.2
 axes.spines.left:      False
 axes.spines.right:     False
 axes.spines.top:       False
